@@ -24,7 +24,10 @@
 		"ghcr.io/devcontainers/features/java": {
 			"version": "8",
 			"jdkDistro": "amzn"
-		}
+		},
+        "ghcr.io/devcontainers/features/node": {
+          "version": "18"
+        }
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
