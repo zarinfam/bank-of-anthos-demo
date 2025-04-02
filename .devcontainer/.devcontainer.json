@@ -20,7 +20,9 @@
 		"ghcr.io/devcontainers-extra/features/kind:1": {
 			"version": "latest"
 		}
-	}
+	},
+
+	"postCreateCommand": "kind create cluster --name anthos"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
