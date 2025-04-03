@@ -19,7 +19,10 @@
 		"ghcr.io/rio/features/skaffold:2": {},
 		"ghcr.io/devcontainers-extra/features/kind:1": {
 			"version": "latest"
-		}
+		},
+		"ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    	}
 	},
 
 	"postCreateCommand": "kind create cluster --name anthos"
